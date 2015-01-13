@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>  
+RewriteEngine on  
+RewriteRule ^/shortcut$ /../p2tab/api/pos  
+</IfModule>

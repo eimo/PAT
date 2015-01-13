@@ -1,0 +1,20 @@
+{
+	"partner": {
+		"name": "Nommio",
+		"bn": "DoubleUnderline_SP",
+		"version": "1",
+		"demoMode": false,
+		"tableNumberBinding": true,
+		"tableNumberBindingType": "Table Number",
+		"invoiceBySeat": true,
+		"billSplit": true,
+		"billSplitBySeat": false,
+		"poll_statusRate": 5000,
+		"req_dataType": "json",
+		"req_tableStatus": "/cloud-authpay/cloud/api/status/{location_id}/{customer_id}/{tab_id}",
+		"req_tableBind": "/cloud-authpay/cloud/api/joinFriend/{location_id}/{table_code}/{my_table_code}",
+		"req_tableJoinfriend": "/cloud-authpay/cloud/api/joinFriend/{location_id}/{table_code}/{my_tab_id}",
+		"req_leaveFriend": "/cloud-authpay/cloud/api/leave/{location_id}/{table_code}/{my_tab_id}",
+		"req_tablePay": "/cloud-authpay/cloud/api/payment"
+	}
+}
